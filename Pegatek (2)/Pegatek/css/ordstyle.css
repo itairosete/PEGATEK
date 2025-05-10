@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", serif;
+}
+
+/**ESTILOS DEL MENÚ DE NAVEGACIÓN**/
+.navbar-dark{
+    background-color: #E00C19;
+    font-family: "Inter", serif;
+}
+.navbar-brand img{
+    width: 230px;
+    padding: 1.3em;
+}
+.navbar-toggler{
+    border: 3px solid white;
+}
+.busq{
+    margin-right: 1.5em;
+}
+.form-control{
+    margin-right: 100px;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: white;
+}
+.busq button{
+    color: white;
+    border: 1px solid white;
+}
+.busq button:hover{
+    transition: all 0s;
+    background-color: #8C0909;
+    border: 1px solid #8C0909;
+}
+.navbar-nav li a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px; 
+}
+.navbar-nav li a:hover{
+    text-decoration: underline;
+}
+
+/**ESTILOS DEL HEADER**/
+.jumbotron{
+    border-radius: 0;
+    background-image: url(../img/header.jpg);
+    padding-bottom: 7em;
+}
+.jumbotron img{
+    width: 100%;
+    padding: 2em;
+}
+
+/**ESTILOS DE TEXTO**/
+h1{
+    font-family: "Karla", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 9vmin;
+    margin: 0.9em 0 0.6em 0;
+}
+h2{
+    font-family: "Karla", serif;
+    text-align: center;
+    margin: 0.3em 1em 0 1em;
+    font-size: 5vmin; 
+}
+p{
+    font-size: 1em;
+}
+
+/**ESTILOS DEL CONTENIDO**/
+.card{
+    text-align: center;
+    border: 0;
+    margin: 0.2em 1.3em 0 1.3em;
+}
+.card img{
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+.prod{
+    text-align: center;
+}
+.prod a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 4vmin;
+}
+.prod a:hover{
+    color: #E00C19;
+    text-decoration: underline;
+}
+.prod img{
+    display: block;
+    margin: auto;
+    width: 65%;
+}
+.prod img:hover{
+    transition: all 0.2s;
+    -webkit-transform:scale(1.06);
+}
+
+/**ESTILOS DEL BOTÓN**/
+.boton{
+    text-align: center;
+    margin: 1em 0 4.5em 0;
+}
+.boton .btn{
+    font-weight: 600;
+    transition: all 0s;
+    text-decoration: none;
+    font-size: 2.5vmin;
+    padding: 1em;
+    background-color: #E00C19;
+    color: white;
+    border-radius: 2em;
+}
+.boton .btn:hover{
+    background-color: #8C0909;
+    text-decoration: none;
+    color: white;
+}
+
+/**ESTILOS DEL FOOTER**/
+footer{
+    width: 100%;
+	background-color: black;
+	color: white;
+    text-align: center;
+    padding: 3em 0 1.6em 0;
+}
+footer h4{
+    font-size: 1.4em;
+    font-family: "Karla", serif;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+/**.social-link{
+    display: flex;
+}**/
+.social-link a{
+	display: block;
+	color: #E00C19;
+	margin-bottom: 7px;
+	font-size: 2em;
+	margin-right: 25px;
+    
+}
+.social-link a:hover {
+	color: white;
+}
+.input-send{
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.input-send input{
+	padding: .8em;
+	font-size: 1em;
+	background-color: white;
+	color: #afafaf;
+	border-radius: 20px;
+	outline: none;
+	width: 50%;
+	border: 0;
+}
+.input-send input::placeholder{
+	color: #afafaf;
+}
+.input-send button{
+    font-weight: 600;
+    width: 10em;
+	margin-top: 20px;
+	border: none;
+	cursor: pointer; 
+    text-decoration: none;
+    font-size: 2.5vmin;
+    padding: 1em;
+    background-color: #E00C19;
+    color: white;
+    border-radius: 2em;
+}
+.input-send button:hover{
+	background-color: white;
+	color: #E00C19;
+}
+
+/**adicionales**/
+#qsimg, #himg{
+    width: 100%;
+    padding-bottom: 2em;
+}
+iframe{
+    width: 100%;
+    height: 30em;
+    margin-bottom: 3em;
+}
+.prod2{
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+.prod2 a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 4vmin;
+}
+.prod2 a:hover{
+    color: #E00C19;
+    text-decoration: underline;
+}
+.galprod{
+    margin-bottom: 0.5em;
+    width: 25%;
+}
+@media (min-width:250px) and (max-width:840px){
+    .galprod{
+    margin-bottom: 0.5em;
+    width: 85%;
+}
+}
+.galprod2{
+    width: 85%;
+    margin-bottom: 0.5em;
+}
+.tprod{
+    text-align: left;
+}
+table{
+    text-align: left;
+    margin-top: 2em;
+    width: 100%;
+}
+td{
+    padding: 20px;
+}
+th{
+    padding: 20px 100px 20px 20px;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+tr:nth-child(odd){
+    background-color: #dbdbdb;
+}
+.card-link{
+	color: black !important;
+}
+.breadcrumb li a{
+	color: red!important;
+}
+i{
+    color: #E00C19;
+}
+.ft{
+    font-weight: 600;
+    transition: all 0s;
+    text-decoration: none;
+    font-size: 2.5vmin;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 2em;
+}
+.ft:hover{
+    background-color: #8C0909;
+    text-decoration: none;
+    color: white;
+}
+.datos{
+    float: left;
+}
+.prod2 img:hover{
+    transition: all 0.2s;
+    -webkit-transform:scale(1.06);
+}
